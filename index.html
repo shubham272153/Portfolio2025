@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <!-- Navbar header section -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h2 class="logo-heading" >Shubham Agrahari</h2>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars hamburger-icon"></i>
+          <i class="fas fa-times cross-icon"></i>
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-items">
+              <a class="links" href="#home"> Profile </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#portfolio"> Projects </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#about"> About me </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#services"> Skills </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#contact"> Contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+      <div class="intro">
+        <div class="headings">
+          <h3 class="greet-heading" style="font-weight: 600;">Hello, I'm</h3>
+          <h1 class="my-heading" style="color: rgb(46, 4, 184); font-weight: 700; z-index: 100;">Shubham Agrahari</h1>
+          <h4 class="sub-heading" style="color: black ; font-size: 1.5rem; font-weight: 600;">MERN Stack Developer</h4>
+        </div>
+
+        <div class="social-media">
+            
+            <a href="https://github.com/shubham272153" target="_blank"; style="--i:9; background: #fcf9f9;text-decoration: none"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/shubham-agrahari-704b41266/" target="_blank"; style="--i:10; background: #4cd5e8;text-decoration: none"><i class='bx bxl-linkedin' ></i></a>
+            
+           </div>
+
+
+        <div class="intro-buttons">
+          <button class="btn common-btn">Hire Me</button>
+          <button class="btn ghost-btn"> <a  href="#contact" style="text-decoration: none; color: #0a0608;  font-size: 1rem; font-weight: 600;"> Resume </a></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-heading" style="background:linear-gradient(90deg, #f8f6f7, #3316d4, #f5f3f4) ;opacity: .9 ;">
+        <h1 class="my-heading text-center" style="color: black;">My Projects</h1>
+      </div>
+      <div class="portfolio-content" >
+        <div class="my-row" >
+          <div class="my-col" >
+            <div class="my-card port-card " >
+              <div class="image">
+                <img src="portfolioBiopic.png" alt="Web Design Image" />
+              </div>
+              <h3 class="greet-heading blue-text"><a  href="#contact" style="text-decoration: none; color: black ; font-weight: 800;">Link : (Project.1 : Portfolio..) Frontend </a></h3>
+              <p class="small-para blue-text">by using (HTML5, CSS, javascript)</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img src="Smart-GPT.png" alt="Web Design Image" />
+              </div>
+              <h3 class="greet-heading blue-text"><a  href="https://ai-project-ecru.vercel.app/" target="_blank" style="text-decoration: none; color: black ; font-weight: 800;">Link:(Project.1 : Smart-GPT AI...) MERN Full Stack </a></h3>
+              <p class="small-para blue-text">(MERN,Tailwind.css, ImageKit, gemini AI Tool etc.)</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img src="Dextop-appImg.png" alt="SEO Image" />
+              </div>
+              <h3 class="greet-heading blue-text"> <a  href="https://tailwin-css.vercel.app/" target="_blank" style="text-decoration: none; color: black ; font-weight: 800;">Link : (Project.3: Dextop Apps) Frontend</a> </h3>
+              <p class="small-para blue-text">by using (HTML5, JavaScript, Tailwind.css)</p>
+            </div>
+          </div>
+        </div>
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img src="ramMandirPimg.png" alt="Content Writting Image" />
+              </div>
+              <h3 class="greet-heading blue-text"> <a  href="https://ram-mandir-p.vercel.app/" target="_blank" style="text-decoration: none; color: black ; font-weight: 800;">Link:(Project.4: RamMandir Ayodhya) Frontend</a> </h3>
+              <p class="small-para blue-text">by using (HTML5, JavaScript, Tailwind.css)</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img src="ecommPimg.jpeg" alt="E-commerce" />
+              </div>
+              <h3 class="greet-heading blue-text" style="text-decoration: none; color: black ; font-weight: 800;">(Project.5 : E-commerce (Not Ready)) MERN Full Stack</h3>
+              <p class="small-para blue-text"> by using ( MERN,Tailwind.css)</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img src="blogging-imgP.png" alt="Video Editing Image" />
+              </div>
+               <h3 class="greet-heading blue-text" style="text-decoration: none; color: black ; font-weight: 800;">(Project.5 :Blogging WebApp (Not Ready)) MERN Full Stack</h3>
+              <p class="small-para blue-text"> by using ( MERN, Google Firebase Auth, Tailwind.css)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" style="background:linear-gradient(90deg, #111111, #3316d4, #0a0608); ">
+      <div class="about-text">
+        <h1 class="my-heading" style="background: linear-gradient(90deg, #111111, #3316d4, #0a0608); padding: 10px 0px 0px 90px;">About Me</h1>
+        <p class="lead-para" style="font-size: 1.25rem;">
+          I am  B.Tech graduate in Information Technology(2025) , passionate about software development and problem-solving. Skilled in MERN Stack (MongoDB, Express.js, React.js, Node.js) and proficient in building responsive web applications. basic foundation in C++, Data Structures, Algorithms, and JavaScript (ES6). Enthusiastic learner, eager to apply technical knowledge in real-world AI base projects , contribute to team success, and grow as a full-stack developer with new Technology.
+        </p>
+        
+      </div>
+      <div class="about-image" >
+        <img src="images.jfif" alt="About Image" style="border-radius: 50%;"/>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services" >
+      <div class="services-heading" style="background: linear-gradient(90deg, #f1eaea, #3316d4, #f3eef1) ;">
+        <h1 class="my-heading text-center" style="color: black; font-weight: 600;">My Skills & Educations</h1>
+      </div>
+      <div class="services-content" >
+        <div class="my-row">
+          <div class="my-col" >
+            <div class="my-card" style="background: linear-gradient(90deg, #e71e83, #3316d4, #ee19ae);">
+              <div class="icon" style="background: black;">
+                <i class="fa-solid fa-user-graduate"></i>
+              </div>
+              <h3 class="greet-heading blue-text" style="color: black; font-size: 1.6rem; font-weight: 700; " >Education Detaits</h3>
+              <pre class="small-para" >
+   <h3>B.Tech in Information Technology 
+  Institute of Engineering and Technology,
+  Dr. Ram Manohar Lohia Avadh University.
+    Score:67% (2025)</h3>
+    <h3>Intermediate (2019)
+ Percentage:76% </h3>
+    <h3>High School (2017)
+ Percentage: 87%</h3>
+              </pre>
+              
+            </div>
+          </div>
+          <div class="my-col" >
+            <div class="my-card" style="background: linear-gradient(90deg, #e71e83, #3316d4, #ee19ae);">
+              <div class="icon" style="background: black;font-size: 1.6rem">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="greet-heading blue-text" style="color: black; font-weight: 700;font-size: 1.6rem; ">SKILLS</h3>
+              <pre class="small-para"><h3>        
+• Programming:
+( basic C++, DSA,OOPS,JavaScript(ES6))
+
+• Front-End:
+(HTML5, CSS3, js, gsap Framwork, React.Js, 
+Context API,Tailwaind,Material-UI ).
+
+• Backend:
+ (NodeJS, ExpressJS, MongoDB, ExpressJS,
+ Postman, REST API, jwt, WebSocket.io.)
+
+• Other Tools:
+ (ChatGPT AI, genAI, ImageKit, Git & GitHub,
+  CanvaEditer, Vercel, AppWrite, Firebase ).
+             </h3> </pre>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+      <div class="contact-heading">
+        <h1 class="my-heading text-center">Contact Me</h1>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <h1 class="greet-heading">Get In Touch</h1>
+          <form class="contact-form">
+            <input class="form-controls" type="text" placeholder="Your Name" />
+            <input class="form-controls" type="text" placeholder="Your Email" />
+            <input class="form-controls" type="text" placeholder="Your Phone" />
+            <textarea
+              class="form-controls"
+              placeholder="Write your message"
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+            <input
+              class="form-btn btn common-btn"
+              type="submit"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <div class="contact-details">
+          <h1 class="greet-heading">My Contact Details</h1>
+          <div class="details">
+            <h5 class="contact-heading">EMAIL</h5>
+            <p class="contact-text">shubhamagraharig121@gmail.com</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">Phone No</h5>
+            <p class="contact-text">(+91)7704041675</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">ADDRESS</h5>
+            <p class="contact-text">Pathrabazar SiddharthNagar Uttar Pardesh, 272143 </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-content text-center">
+        <h4>
+          Copyright © 2025 All Rights Reserved | This portfolio website template is created by Shubham Agrahari.
+        </h4>
+        <div class="social-links">
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              
+              
+              <li class="footer-list-items">
+                <a class="footer-links" href="https://github.com/shubham272153" target="_blank";>
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="https://www.linkedin.com/in/shubham-agrahari-704b41266/" target="_blank";>
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
